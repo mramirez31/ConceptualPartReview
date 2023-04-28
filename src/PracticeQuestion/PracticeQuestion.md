@@ -1,0 +1,139 @@
+#  Answer to each question in details (You can google to find answers)
+
+- What is Java and what are its key features?
+  - Java is one of the most widely used programming language that was Originally developed by James Gosling and is a well-built and program and is efficient and secure.
+  - It is also a high-level, class-based, object-oriented programming language.
+  - Some key features of java is its simple, object-oriented, robust, secure, portable, platform independent, Distributed, and high-performanced.
+- How do you declare and use variables in Java?
+  - To declare and use a variable you must first specify the data type and name of the variable and after to use a variable you simply refer to the variables name in the statement like when trying to get an output.
+- What is a class in Java and how do you define one?
+  - A class in java is a blueprint for creating objects and simply defines properties and behavior of objects that are created from the class. To define a class you must always use the keyword class in the code followed by the name of the class and class body that will contain the methods and properties of the class.
+- What is encapsulation and how is it achieved in Java?
+  - Encapsulation is the practice of hiding the internal details of an any object and only exposing a public interface through which other objects can interact with it. 
+  - In Java, encapsulation is achieved through the use of access modifiers that are keywords used to determine the level of visibility and accessibility a class, method, or field is allowed such as private, public, Default, and protected.
+- How do you create objects in Java and what is their role in the program?
+  - In java to create an object you must use the new keyword followed by a constructor of the class you are going to instantiate to create a new object ClassName class and assign it to the objectName Variable.
+  - The vital role they play in java is that they allow you to create objects and concepts in your programs and also encapsulate data and behavior which makes it easier to manage or extend your code.
+- What is the difference between a method and a constructor in Java?
+  - The differences between method and constructors are that in constructors they have the same names as their class and are called automatically when a object is created while in method they have different and unique names as well as methods are called explicitly and methods can return a value or void while the other can't.
+- How do you implement inheritance in Java and what are its benefits?
+  - To implement inheritance in java, you must the extends keyword in the class declaration so that the subclass you put in the class header inherits all the code from the main class as well.
+  - The benefits of inheritance are that it has code reuse that allow for the code to be reused and Polymorphism which creates multiple subclass that share common properties and methods but can also have their own unique methods and properties and Modularity that allows for you to have a well organized code into logical and modular units.
+- What is abstraction and how is it achieved in Java?
+  - Abstraction is a fundamental concept that allows for you to keep focus on the essential features of an object and ignore the details that are non-relevant of it behavior.
+  - It is achieved through abstract classes and interfaces.
+- How do you work with arrays and ArrayLists in Java and what are their differences?
+  - Some ways on how to work with arrays and ArrayList in java is when creating an array, accessing array elements, creating an ArrayList, and adding or removing elements from ArrayList.
+  - The difference between the two is their size, type, access, and initialization all of which are different for both for example like size array has a fixed size while ArrayList can either grow big or shrink to small or type where all elements in array are the same and in ArrayList it can hold different element types.
+- How do you use control statements such as if, else, and switch in Java? 
+  - The if statement is used to perform a conditional test and execute a block of code if the test is true. 
+  - The else statement is used in conjunction with if to execute a block of code if the if test is false. 
+  - The switch statement is used to compare a variable or expression against a list of values and execute a block of code for the first match found.
+- What is a loop and how do you implement it in Java?
+  - A loop is a control structure in Java which allows for a block of code to be executed repeatedly and there are three types of loops in Java called the for loop, while loop, and do-while loop.
+  - The way you implement it in java is by creating a condition inside the loop where if it is true the code block is executed and goes ont the next of the program that is inside the loops and will keep going unitl it can't pass the condition set in the loop for it to repeat.
+- What is a method signature in Java and why is it important?
+  - A method signature in Java is a unique identifier for a method that consists of the method's name, return type, and the types of its parameters. It is important because it allows Java to differentiate between methods with the same name but different parameter lists, and it helps to ensure that the correct method is called when the program is executed.
+- What is a package in Java and how do you create one?
+  - In Java, a package is a namespace that organizes a set of related classes and interfaces. It helps to avoid naming conflicts and enables easy management of code.
+  - Create a new directory with the same name as your package. This directory should be located in the same directory as your source code files and Add a package statement to the top of your Java source code file. The java file for the package must be specified by the name of the package with the package keyword.
+- How do you use the String class in Java and what are some of its useful methods?
+  - In Java, the String class is used to represent a sequence of characters. It is one of the most commonly used classes in the Java API, and it provides many useful methods for working with strings.
+  - Some useful methods of the String class are length(), charAt(), subString(), indexOf(String str), and replace(char oldChar, char newChar) all of which help String class.
+- What is a constructor in Java and how is it used to create objects?
+  - In Java, a constructor is a special method that is used to create objects of a class. It has the same name as the class and does not have a return type. When an object of a class is created using the new keyword, a constructor is automatically called to initialize the object.
+- How do you implement encapsulation in Java and why are they important in OOP?
+  - Encapsulation is a mechanism in Java that allows data hiding by binding the data and the methods that operate on it, within a single unit. By implementing encapsulation, the programmer can ensure that the internal state of an object is protected and can only be accessed and modified through a well-defined interface. This helps to prevent bugs and makes the code more maintainable, as changes to the internal implementation of an object can be made without affecting the code that uses the object.
+  - The reason for why encapsulation is important in object-oriented programming (OOP) because it helps to achieve abstraction, which is one of the main principles of OOP.
+- What is object-oriented programming and what are its main principles?
+  - Object-oriented programming (OOP) is a programming paradigm that is based on the concept of objects, which can contain data and code to manipulate that data. OOP is focused on modeling real-world objects, and it provides a way to organize code into reusable, modular components.
+  - The main principles of OOP are Encapsulation, Inheritance, Polymorphism, and Abstraction.
+- What is the difference between a class and an object in OOP?
+  - In OOP, a class is a blueprint or template for creating objects. It defines the properties and methods that an object will have. An object, on the other hand, is an instance of a class. When a class is instantiated, an object is created that has the properties and methods defined by the class.
+- What are the access modifiers in Java and how are they used to control access to class members?
+  - In Java, access modifiers are keywords used to control the level of access to class members (fields, methods, and nested classes) from outside the class.
+  - There are four access modifiers in which are public that allows access to anyone from anywhere including outside the package, private that restricts access to members to the class it is defined in, protected that allows for anything in the same package or subclass in other package to be allowed to use it, and finally default that allows restricts access to anything that is in the same package file.
+- How do you implement method overloading and overriding in Java?
+  - Method overloading allows you to define multiple methods with the same name in a class, but with different parameters. The compiler uses the number and type of arguments to determine which version of the method to call. while in Method overriding, on the other hand, occurs when a subclass provides a specific implementation of a method that is already defined in its superclass.
+- How do you create and manipulate String objects in Java?
+  - In java to create a string you use the String object to create a sting and once you have a String object, you can manipulate it in various ways using the methods provided by the String class.
+  - Some example are like using the + sign operator to combine to strings or using equals() method.
+- What is the purpose of the length() method in the String class?
+  - The length() method is a built-in method of the String class in Java that returns the length of the String object in terms of the number of characters it contains. The method returns an int value, which represents the number of characters in the String object.
+- How do you concatenate Strings in Java and what is the most efficient way to do so?
+  - In Java, concatenating strings can be done using the "+" operator or the concat() method. The "+" operator is the easiest way to concatenate two strings, but it creates a new object every time it is used, which can be inefficient if used repeatedly. On the other hand, the concat() method is more efficient since it modifies the original string.
+- What is a substring in Java and how do you extract it from a String?
+  - A substring is a portion of a string. In Java, you can extract a substring from a string using the substring() method. The method takes two parameters: the starting index (inclusive) and the ending index (exclusive) of the substring.
+- How do you compare Strings in Java and what is the difference between == and equals()?
+  - When comparing strings in Java, the "==" operator compares object references, while the equals() method compares the contents of the strings. So if you want to check if two strings have the same value, you should use the equals() method.
+- What is the role of the char data type in Java and how is it used?
+  - The char data type in Java represents a single character, such as a letter, number, or symbol. It uses a single 16-bit Unicode character and can be used to store any character supported by Unicode.
+- What is Unicode and how does it relate to the char data type in Java?
+  - Unicode is a character encoding standard that assigns unique numerical values to every character, symbol, and punctuation mark used in human languages, as well as technical and mathematical symbols. It allows computers to represent and manipulate text in different languages and scripts.
+  - In Java, the char data type represents a single Unicode character. It is a 16-bit unsigned integer that can hold any character in the Unicode Basic Multilingual Plane (BMP), which includes most commonly used characters in languages such as English, Chinese, Arabic, and so on.
+- How do you convert a char to a String in Java and vice versa?
+  - To convert a char to a String in Java, you can use the String constructor that takes a char argument, like this: char c = 'a';
+    String s = new String(new char[] {c});
+  - To convert a String to a char in Java, you can use the charAt() method of the String class, like this: String s = "hello";
+    char c = s.charAt(0);
+- What is the difference between char and Character in Java?
+  - The main difference between char and Character in Java is that char is a primitive data type, while Character is a wrapper class that provides methods to manipulate characters. The Character class also provides additional functionality such as conversion to lowercase or uppercase, and checking if a character is a letter or a digit.
+- What are escape sequences and how are they used with characters in Java?
+  - Escape sequences are special sequences of characters that represent a particular character when used inside a string literal. In Java, some common escape sequences include \n for a newline, \t for a tab, \" for a double quote, and \\ for a backslash.
+- How do you create a char array in Java and what are its uses?
+  - To create a char array in Java, you can use the syntax char[] arr = new char[length]; where length is the number of elements in the array. Char arrays are useful for storing and manipulating strings of characters.
+- What is the ASCII code and how is it related to the char data type?
+  - ASCII (American Standard Code for Information Interchange) is the most common character encoding format for text data in computers and on the internet. In standard ASCII-encoded data, there are unique values for 128 alphabetic, numeric or special additional characters and control codes.
+- How do you convert a character to its corresponding ASCII value in Java?
+  - The way to convert a character to its ASCII value in java is by putting the character to an int operator and this will return the ASCII value of the character as an integer.
+- What is a Unicode character and how is it represented in Java?
+  - A Unicode character is a character that is assigned a unique code point in the Unicode standard, which includes characters used in most languages and scripts in the world. In Java, Unicode characters are represented using the char data type, which can hold any Unicode character in the BMP.
+- How do you determine the type of a character in Java?
+  - To determine the type of a character in Java, you can use the methods of the Character class. For example, the isLetter() method returns true if a character is a letter, the isDigit() method returns true if a character is a digit, and the isWhitespace() method returns true if a character is a whitespace character (e.g. space, tab, newline)
+- How do you perform case conversion on a character in Java?
+  - You can perform case conversion on a character in Java using the methods toUpperCase() and toLowerCase() of the Character class.
+- What are some of the useful methods available in the Character class in Java?
+  - The Character class has several useful methods available with character class in java and some of these methods are:
+  - isLetter(char ch) - this will return true if the specified character is a letter. 
+  - isDigit(char ch) - this returns true if the specified character is a digit. 
+  - isWhitespace(char ch) - this also will return true if the specified character is whitespace. 
+  - toUpperCase(char ch) - this will convert the specified character to uppercase in java. 
+  - toLowerCase(char ch) - this one converts the specified character to lowercase even if it is uppercase. 
+  - toString(char ch) - this will return the string that represents the specified character back to the string it came from.
+- How do you compare characters in Java and what is the difference between == and equals() when used with characters?
+  - The difference between the two is that in java == is a operator in java while equals() is a method in java and also one can compare conflicting objects and equal false while == can't and will give an error. Another is that == can't be overridden while equals() can be and == is used with objects and primitives while equals() can only be used with objects and not primitives.
+  - When comparing two characters == compares the characters and sees if they are equal to each other and have the same value while equals() can't compare two characters because they are not objects and that makes it where the equals() method can't check if two character are the same object. 
+
+## Write a Java class to represent a Point in a two-dimensional space. The class should have methods to set and get the x and y coordinates, calculate the distance to another Point, and return a String representation of the Point.
+package PracticeQuestion;
+
+- public class Point {
+- private double x;
+- private double y;
+- public Point(double x, double y) {
+- this.x = x;
+- this.y = y;
+- }
+- public double getX() {
+- return x;
+- }
+- public void setX(double x) {
+- this.x = x;
+- }
+- public double getY() {
+- return y;
+- }
+- public void setY(double y) {
+- this.y = y;
+- }
+- public double distanceTo(Point other) {
+- double dx = this.x - other.x;
+- double dy = this.y - other.y;
+- return Math.sqrt(dx * dx + dy * dy);
+- }
+- @Override
+- public String toString() {
+- return String.format("(%f, %f)", x, y);
+- }
+- }
+
